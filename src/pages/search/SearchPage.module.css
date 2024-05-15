@@ -1,0 +1,33 @@
+.search_layout{
+    min-height: 90vh;
+    display: grid;
+    grid-template-rows: 35% 60% 10%;
+    justify-content: center;
+}
+
+.header{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid 1px #d2d2d2;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_note{
+    color: #979797;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 700;
+}
+
+/* .footer{
+
+} */

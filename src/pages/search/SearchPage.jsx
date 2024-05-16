@@ -1,6 +1,5 @@
-import { Outlet } from "react-router-dom";
-import Header from "../../components/UI/Header";
-import cssClasses from './SearchPage.module.css';
+import Header from "../../components/UI/header/Header";
+import cssClasses from './PageLayout.module.css';
 import SearchComponent from "../../components/search/SearchComponent";
 import { clearUserSearchInput } from "../../util/local_storage";
 import appStore from "../../store";
@@ -8,7 +7,7 @@ import { searchActions } from "../../store/search";
 
 export default function SearchPage(){
     return(
-        <div className={cssClasses.search_layout}>
+        <div className={cssClasses.layout}>
             <div className={cssClasses.header}>
                 <Header 
                     key={'search-header'}
@@ -18,7 +17,7 @@ export default function SearchPage(){
                     key={'search-page-search-component'}
                 />
             </div>
-            <div className={cssClasses.body}>
+            <div className={cssClasses.search_body}>
                 <span className={cssClasses.user_note}>
                    "Find medicines with amazing discounts"
                 </span>

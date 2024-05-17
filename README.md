@@ -1,8 +1,36 @@
-# React + Vite
+# Cappsule Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a react project built in React library, using some basic and indepth concepts of React.
+<br>
+It is useful to search medicines/tablets/injections and their availabilities in nearby stores with rates.
+<br>
+<br>
 
-Currently, two official plugins are available:
+## Dependencies
+#### API services of CAPPSULE
+Example Hosts: <code>https://backend.cappsule.co.in</code>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation
+* Clone the repo <code>git clone https://github.com/MegaDhakse2/capsule-demo-search-app.git</code>
+* Install dependencies <code>npm install</code>
+* To Run Dev server <code>npm run dev</code>
+
+
+## Majorly used Concepts
+* Functional Components
+* React Essentials
+* Portals
+* Router dom
+* Redux (toolkit)
+* Data Fetching (API's)
+* Local Storage
+* Handling Forms
+* Validations
+* Stylings using Moduled Vennila CSS
+* Animations
+* Error Handling
+  
+<br>
+<br>
+
+*Thanks Cappsule ✌* 😎

@@ -6,7 +6,6 @@ function getSearchState() {
 }
 
 export function capsuleSearchAPIPath(){
-    debugger
     const searchState =  getSearchState();
     return `https://backend.cappsule.co.in/api/v1/new_search?q=${searchState.search.userSearchInput}&pharmacyIds=1,2,3`;
 }

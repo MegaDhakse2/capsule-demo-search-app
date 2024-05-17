@@ -7,7 +7,7 @@ export async function fetchData({url}){
     let response;
 
     //For Loader gif Purpose
-    debugger
+
     appStore.dispatch(uiActions.startLoading());
     try {
         response = await fetch(url);

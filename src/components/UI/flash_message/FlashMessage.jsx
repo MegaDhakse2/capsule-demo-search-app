@@ -38,7 +38,7 @@ export default function FlashMessage({message, ...props}){
     useEffect(()=>{
         setTimeout(()=>{
             onCloseFlash();
-        }, 3*1000)
+        }, 4*1000)
     },[onCloseFlash])
 
     return createPortal(

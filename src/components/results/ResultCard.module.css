@@ -38,12 +38,22 @@
 .left_block .row{
     display: flex;
     align-items: start;
-    overflow: hidden;
 }
 
 .row .left_block_heading{
     display: block;
     margin-top: 6px;
+}
+
+.row .showMoreHideBut{
+    all: unset;
+    color:#132d56;
+    display: inline;
+    cursor:pointer;
+    padding: 1px 6px;
+    font: inherit;
+    font-weight: 600;
+    font-size: smaller;
 }
 
 .center_block{

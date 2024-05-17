@@ -13,17 +13,16 @@ export default function SearchComponent({existingUserInput}){
     async function handleSearchSubmit(event){
         event.preventDefault();
 
-        //Get search form data
+        //Get user search form data
         const rawFD = new FormData(event.target);
         const userSearchData = Object.fromEntries(rawFD.entries());
-        debugger
-        console.log(userSearchData, 'user search input from search component');
+        // console.log(userSearchData, 'user search input from search component');
 
+        //Store user search data
         dispatch(searchActions.setUserSearch({userSearchInput : userSearchData.user_search_input}));
         setUserSearchInputLocally(userSearchData.user_search_input);
         
         navigate('/searchResults');
-        // return searchResults;
     }
 
     return(

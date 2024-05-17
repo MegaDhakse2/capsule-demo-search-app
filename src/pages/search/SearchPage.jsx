@@ -1,5 +1,5 @@
 import Header from "../../components/UI/header/Header";
-import cssClasses from './PageLayout.module.css';
+import cssClasses from '../PageLayout.module.css';
 import SearchComponent from "../../components/search/SearchComponent";
 import { clearUserSearchInput } from "../../util/local_storage";
 import appStore from "../../store";
@@ -23,7 +23,7 @@ export default function SearchPage(){
                 </span>
             </div>
             <div className={cssClasses.footer}>
-                {/* footer */}
+                {/* @Cappsule */}
             </div>
         </div>
     )

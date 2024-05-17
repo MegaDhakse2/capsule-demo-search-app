@@ -3,7 +3,7 @@
     min-width: 70vw;
     display: grid;
     /* grid-template-rows: 35% 60% 10%; */
-    grid-template-rows: 15rem auto 7rem;
+    grid-template-rows: 15rem auto 5rem;
     justify-content: center;
 }
 

@@ -6,6 +6,9 @@ It is useful to search medicines/tablets/injections and their availabilities in 
 <br>
 <br>
 
+## This App is Deployed in the below link
+#### https://cappsule-search-app.web.app/
+
 ## Dependencies
 #### API services of CAPPSULE
 Example Hosts: <code>https://backend.cappsule.co.in</code>
@@ -27,6 +30,7 @@ Example Hosts: <code>https://backend.cappsule.co.in</code>
 * Handling Forms
 * Validations
 * Stylings using Moduled Vennila CSS
+* Connected with firebase & Deployed 
 * Animations
 * Error Handling
   

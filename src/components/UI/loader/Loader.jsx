@@ -12,7 +12,11 @@ export default function Loader(){
             className={cssClasses.loader}
         >   
             <div>
-                <img src={loadingGif} alt="loading Gif" width={100} height={100}/>
+                <img 
+                    src={loadingGif} 
+                    alt="loading Gif" 
+                    className={cssClasses.loaderGif}
+                />
                 {/* <p>{'Loading...'}</p> */}
             </div>
         </dialog>,

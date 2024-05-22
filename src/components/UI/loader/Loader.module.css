@@ -2,5 +2,28 @@
     border: none;
     background-color:transparent;
     z-index:1001;
-    margin-top: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loaderGif{
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width:768px) {
+    .loaderGif{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .loaderGif{
+        width: 50px;
+        height: 50px;
+    }
 }

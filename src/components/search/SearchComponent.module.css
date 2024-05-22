@@ -24,6 +24,8 @@
 
 .form_input_block > img{
     margin-right: 1rem;
+    height: 30px;
+    width: 30px;
 }
 
 .search_input{
@@ -40,4 +42,49 @@
     cursor: pointer;
     font-weight: 700;
     /* font-size: large; */
+}
+
+@media only screen and (max-width:768px) {
+    /* For tab: */
+    .search_form{
+        height: 2.5rem;
+        padding: 4px;
+        padding-left: 1.3rem;
+        padding-right: 2rem;
+    }
+    .search_input{
+        font-size: medium;
+        font-family: inherit;
+    }
+    .form_submit_but{
+        font-weight: 600;
+    }
+    .form_input_block > img{
+        margin-right: 0.5rem;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    /* For mobile: */
+    .search_form{
+        height: 2rem;
+        padding: 3px;
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+    }
+    .search_input{
+        font-size: medium;
+        font-family: inherit;
+    }
+    .form_submit_but{
+        font-weight: 600;
+        font-size: medium;
+    }
+    .form_input_block > img{
+        margin-right: 0.3rem;
+        height: 20px;
+        width: 20px;
+    }
 }

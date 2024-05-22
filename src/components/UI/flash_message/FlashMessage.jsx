@@ -49,14 +49,14 @@ export default function FlashMessage({message, ...props}){
             open
         >   
             <div className={cssClasses.content_block}>
-                <p style={{marginRight:'2rem'}}>
+                <span className={cssClasses.content}>
                     {message}
-                </p>
-                <p style={{cursor:'pointer'}} 
+                </span>
+                <span className={cssClasses.closeBut} 
                    onClick={onCloseFlash}
                 >
                     x
-                </p>
+                </span>
             </div>
         </dialog>,
         document.getElementById('modal')

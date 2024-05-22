@@ -1,15 +1,13 @@
 .flash_modal {
     border: none;
     border-radius: 8px;
-    /* padding: 2rem; */
-    height: 12px;
+    height: fit-content;
+    padding: 8px;
     z-index: 101;
-    /* margin: 0 35%; */
     margin-top: 2%;
     margin-right: 6%;
     position: fixed;
     background-color: #d7fcf8;
-    font-size: large;
   }
   
   .flash_modal[open] {
@@ -23,16 +21,17 @@
   
   .content_block{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
   }
 
-  .flash_modal p {
-    /* display: inline-block; */
+  .content{
     font-family: 'Handjet', monospace;
-    margin: 0 0 0.25rem 0;
-    /* text-align: center; */
-    font-size: 1rem;
-    /* text-transform: uppercase; */
+    margin-right: 1.5rem;
+  }
+
+  .closeBut{
+    cursor: pointer;
   }
 
   @keyframes slide-in-from-top {
@@ -43,5 +42,26 @@
     100% {
       transform: translateX(0);
       opacity: 1;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .flash_modal{
+      height: fit-content;
+      padding: 6px;
+    }
+    .content_block{
+      font-size: small;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .flash_modal{
+      border-radius: 6px;
+      height: fit-content;
+      padding: 5px;
+    }
+    .content_block{
+      font-size: small;
     }
   }

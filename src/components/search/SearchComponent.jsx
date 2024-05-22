@@ -33,8 +33,8 @@ export default function SearchComponent({existingUserInput}){
                     <img
                         src={backArrowIcon}
                         alt="back arrow icon"
-                        width={30}
-                        height={30}
+                        // width={30}
+                        // height={30}
                         onClick={()=>navigate('/search')}
                         style={{cursor:'pointer'}}
                     />
@@ -42,8 +42,8 @@ export default function SearchComponent({existingUserInput}){
                     <img
                         src={searchIcon}
                         alt=" icon"
-                        width={30}
-                        height={30}
+                        // width={30}
+                        // height={30}
                     />
 
                 }
@@ -51,7 +51,7 @@ export default function SearchComponent({existingUserInput}){
                 <input
                     type="text"
                     name="user_search_input"
-                    placeholder="Type your medicine name here"
+                    placeholder="Type medicine name"
                     className={cssClasses.search_input}
                     defaultValue={existingUserInput ? existingUserInput : ''}
                 />

@@ -2,3 +2,17 @@
     text-align: center;
     font-size: xx-large;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For Tab */
+    .search_heading {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* For Mobile */
+    .search_heading {
+        font-size: large;
+    }
+}
